@@ -6,10 +6,7 @@
 #define IN4 4
 int led1 = 2;
 int led2 = 3;    
-
-//Definindo pinos para o controle de velocidade dos motores
-#define ENA 10                       
-#define ENB 11                      
+                    
 
 
 void setup() {
@@ -23,14 +20,9 @@ void setup() {
   pinMode(IN2,OUTPUT);              
   pinMode(IN3,OUTPUT);              
   pinMode(IN4,OUTPUT);              
-  pinMode(ENA,OUTPUT);              
-  pinMode(ENB,OUTPUT);     
+     
 
-  
-// Velocidade dos Motores, Caso esteja muito lento ou muito rápido altere os números entre 0 a 255
-           
-  analogWrite(ENA,110);            
-  analogWrite(ENB,110);            
+         
   }
  
 char cha;
